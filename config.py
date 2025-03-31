@@ -28,7 +28,7 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://akc:akc@cluster0.w6hlw.mo
 DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 
 #Time in seconds for message delete, put 0 to never delete
-TIME = int(os.environ.get("TIME", "600"))
+TIME = int(os.environ.get("TIME", "1800"))
 
 
 #force sub channel id, if you want enable force sub
